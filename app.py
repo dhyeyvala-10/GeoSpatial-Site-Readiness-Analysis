@@ -152,7 +152,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 1 — KPI METRIC CARDS  (Unit I)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Overview &nbsp;<span class="unit-badge">Unit I — DS Pipeline</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Overview &nbsp;<span class="unit-badge"> DS Pipeline</span></div>', unsafe_allow_html=True)
 
 c1, c2, c3, c4, c5 = st.columns(5)
 with c1:
@@ -172,7 +172,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 2 — EDA  (Unit I + Unit II Descriptive)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Exploratory Data Analysis &nbsp;<span class="unit-badge">Unit II — Descriptive Statistics</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Exploratory Data Analysis &nbsp;<span class="unit-badge"> Descriptive Statistics</span></div>', unsafe_allow_html=True)
 
 col_a, col_b, col_c = st.columns(3)
 
@@ -250,7 +250,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 3 — INFERENTIAL STATISTICS (Unit II)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Statistical Analysis &nbsp;<span class="unit-badge">Unit II — Inferential Statistics</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Statistical Analysis &nbsp;<span class="unit-badge"> Inferential Statistics</span></div>', unsafe_allow_html=True)
 
 col_f, col_g, col_h = st.columns(3)
 
@@ -311,7 +311,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 4 — MACHINE LEARNING (Unit III)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Machine Learning Models &nbsp;<span class="unit-badge">Unit III — Supervised + Unsupervised Learning</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Machine Learning Models &nbsp;<span class="unit-badge">  Supervised + Unsupervised Learning</span></div>', unsafe_allow_html=True)
 
 features = ["population_density","road_access_score","competitor_count",
             "highway_dist_km","avg_daily_traffic","power_grid_km"]
@@ -432,7 +432,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 5 — GEOSPATIAL MAP (Unit IV)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Geospatial Site Map &nbsp;<span class="unit-badge">Unit IV — Geospatial Visualization</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Geospatial Site Map &nbsp;<span class="unit-badge"> Geospatial Visualization</span></div>', unsafe_allow_html=True)
 
 try:
     import folium
@@ -490,7 +490,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 6 — TOP SITES RANKED TABLE (Unit IV)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Top Recommended Sites &nbsp;<span class="unit-badge">Unit IV — Visualization + Presentation</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Top Recommended Sites &nbsp;<span class="unit-badge"> Visualization + Presentation</span></div>', unsafe_allow_html=True)
 
 col_n, col_o = st.columns([1.4, 1])
 
@@ -527,7 +527,7 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # SECTION 7 — ETHICS (Unit IV)
 # ─────────────────────────────────────────────
-st.markdown('<div class="section-header">Ethics & Fairness &nbsp;<span class="unit-badge">Unit IV — Data Science Ethics</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Ethics & Fairness &nbsp;<span class="unit-badge"> Data Science Ethics</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
 <div class="ethics-box">
