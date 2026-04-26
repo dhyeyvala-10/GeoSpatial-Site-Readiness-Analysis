@@ -146,7 +146,7 @@ st.sidebar.markdown(f"**Showing:** {len(filtered)} of {len(df)} sites")
 # HEADER
 # ─────────────────────────────────────────────
 st.markdown("## 🗺️ GeoSpatial Site Readiness Analyzer")
-st.markdown("**AI-Powered Location Intelligence for EV Charging Stations & Warehouses** · Gujarat, India")
+st.markdown("**Location Intelligence for EV Charging Stations & Warehouses** · Gujarat, India")
 st.markdown("---")
 
 # ─────────────────────────────────────────────
